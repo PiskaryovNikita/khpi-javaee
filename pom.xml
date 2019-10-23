@@ -105,6 +105,8 @@
                 <configuration>
                     <url>http://localhost:8080/manager/text</url>
                     <server>TomcatServer</server>
+                    <username>admin</username>
+                    <password>password</password>
                     <path>/lr1</path>
                 </configuration>
             </plugin>
