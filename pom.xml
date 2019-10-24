@@ -75,10 +75,18 @@
             <artifactId>gson</artifactId>
             <version>${gson.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
-        <finalName>lr1</finalName>
+        <finalName>lr1-list</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -107,7 +115,7 @@
                     <server>TomcatServer</server>
                     <username>admin</username>
                     <password>password</password>
-                    <path>/lr1</path>
+                    <path>/lr1-list</path>
                 </configuration>
             </plugin>
         </plugins>
